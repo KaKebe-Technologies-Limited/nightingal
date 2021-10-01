@@ -12,7 +12,10 @@
   -ms-flex-pack: start;
   justify-content: start;
 }
-
+.center-items{
+  display: flex;
+  justify-content: center;
+}
 /* Normal desktop :1200px. */
 /* Normal desktop :992px. */
 /* Tablet desktop :768px. */
@@ -25,7 +28,22 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+/* my codes  */
 
+#navigation li:active{
+  color: red;
+}
+#core-headings{
+  color: #31B4E6;
+}
+.red-color{
+  color: red;
+}
+
+.list-objectives li{
+  list-style: square;
+  line-height: normal;
+}
 /* line 12, ../../Arafath/CL/january 2020/243.Education/HTML/scss/theme-default.scss */
 .img {
   max-width: 100%;
@@ -378,6 +396,7 @@ h3 {
 /* line 290, ../../Arafath/CL/january 2020/243.Education/HTML/scss/theme-default.scss */
 .mb-20px {
   margin-bottom: 20px;
+  color: blue !important;
 }
 
 /* line 294, ../../Arafath/CL/january 2020/243.Education/HTML/scss/theme-default.scss */
@@ -3613,7 +3632,7 @@ h3 {
   content: '';
   background-size: cover;
   background-position: center center;
-  background-image: url(../img/admission/2.png);
+  background-image: url(../img/nss.JPG);
 }
 
 @media (max-width: 767px) {
